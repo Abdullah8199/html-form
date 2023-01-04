@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pitha form</title>
+    <style>
+        label{
+            display:block;
+            margin-bottom:5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome To Jamal Er Ma Pitha Ghor</h1>
+    <form>
+        <label for="Name">Your name
+            <input id="Name" type="text" placeholder="Enter Name">
+        </label>
+        <label for="Email">Your Email
+            <input id="Email" type="Email" placeholder="Enter Email">
+        </label>
+        <label for="password">Your password
+            <input id="Password" type="password" placeholder="Enter password">
+        </label>
+
+        <fieldset>
+            <legend>pitha one item</legend>
+            <label for="Chitoy">
+                <input type="radio" name="Pitha" id="Chitoy">Chitoy
+            </label>
+            <label for="vapa">
+                <input type="radio" name="Pitha" id="vapa">vapa
+            </label>
+            <label for="patisapta">
+                <input type="radio" name="pitha" id="patisapta">patisapta
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Vorta Item</legend>
+            <label for="sorisa">
+                <input type="checkbox" name="vorta" id="Sorisa">sorisa
+            </label>
+            <label for="Doniapata">
+                <input type="checkbox" name="vorta" id="Doniapata">Doniapata
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Special Item</legend>
+            <textarea name="" id="" cols="60" rows="10"></textarea>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
